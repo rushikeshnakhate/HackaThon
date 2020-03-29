@@ -44,20 +44,43 @@ class LinkList(object):
                 current_node = current_node.next
         return
 
+    def is_link_list_empty(self):
+        return self.head is None
+
+    def is_only_element_to_be_removed(self, data):
+        return self.is_this_last_node(self.head) and self.head.data is data
+
+    def is_to_be_removed_from_begining(self, data):
+        if data is self.head.data:
+            self.head = self.head.next
+        return
+
+    def is_this_last_node(self, node):
+        return node.next is None
+
     def remove(self, data):
         try:
-            if int(data) is None or self.head is None:
+            if int(data) is None or self.is_link_list_empty():
                 raise ValueError
-            current_node = self.head
+            if self.is_only_element_to_be_removed(int(data)):
+                self.head = None
+            if self.is_to_be_removed_from_begining(int(data)):
+                return
+
+            current_node = self.head.next
+            prev_node = self.head
+
             while current_node is not None:
-                next_node = current_node.next
-                if next_node is None and current_node.data is not int(data):
+                if int(data) is current_node.data is int(data):
+                    prev_node.next = current_node.next
                     return
-                if next_node.data == int(data):
-                    current_node.next = next_node.next
-                current_node = next_node
+                prev_node = current_node
+                current_node = current_node.next
         except ValueError:
             print("attempt to remove element when list is empty!!")
+            return
+        except ValueError(data):
+            print("attempt to remove element{},when it is not present in link list".format(data))
             return
 
     def print_list(self):
@@ -67,3 +90,12 @@ class LinkList(object):
             link_list_content.append(current_node.data)
             current_node = current_node.next
         return link_list_content
+
+    def delete_list(self):
+        if self.head is None:
+            return
+        current_node = self.head
+        while current_node is not None:
+            self.head = current_node.next
+            current_node = None
+            current_node = self.head.next

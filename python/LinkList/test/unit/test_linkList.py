@@ -29,6 +29,20 @@ class TestLinkList(unittest.TestCase):
         res = self.link_list.find(24)
         self.assertEqual(res, None)
 
+    def test_remove_(self):
+        self.link_list.add_node(1)
+        self.link_list.remove(1)
+        actual_full_link_list = self.link_list.print_list()
+        self.assertFalse(actual_full_link_list)
+
+    def test_remove_from_mid(self):
+        self.link_list.add_node(111)
+        self.link_list.add_node(222)
+        self.link_list.add_node(333)
+        self.link_list.remove(222)
+        actual_full_link_list = self.link_list.print_list()
+        self.assertEqual(actual_full_link_list, [111, 333])
+
 
 ZERO_NODE = 0
 TWO_NODE = 2

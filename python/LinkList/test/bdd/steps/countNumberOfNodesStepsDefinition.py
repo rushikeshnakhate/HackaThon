@@ -5,11 +5,17 @@ from LinkList.src.linkList import LinkList
 
 @given(u'nodes are created')
 def add_node(context):
-    model = getattr(context, "model", None)
     for row in context.table:
-        if not model:
-            context.model = LinkList()
         context.model.add_node(row["node"])
+
+
+@given(u'All nodes are reset')
+def delete_list(context):
+    context.model = getattr(context, "model", None)
+    if context.model is None:
+        context.model = LinkList()
+    if context.model is not None:
+        context.model.delete_list()
 
 
 @when(u'nodes are counted')
@@ -48,12 +54,12 @@ def remove(context):
 
 @then(u'link list contains below data')
 def print_list(context):
-    full_link_list = context.model.print_list()
-    link_list = []
+    actual_data = context.model.print_list()
+    expected_data = []
     for row in context.table:
-        link_list.append(row["node"])
+        expected_data.append(row["node"])
     translation = {39: None}
-    link_list = str(link_list).translate(translation)
-    assert link_list == str(full_link_list), "link list content does not match expected data={} with type={}," \
-                                             " actual data ={} with type={}". \
-        format(link_list, type(link_list), full_link_list, type(str(full_link_list)))
+    expected_data = str(expected_data).translate(translation)
+    assert expected_data == str(actual_data), "link list content does not match expected data={} with type={}," \
+                                              " actual data ={} with type={}". \
+        format(expected_data, type(expected_data), actual_data, type(str(actual_data)))

@@ -2,7 +2,8 @@ Feature:  Link List
 
 
   Scenario: count nodes matches to number of nodes created
-    Given nodes are created:
+    Given All nodes are reset
+    And nodes are created:
       | node |
       | 1    |
       | 2    |
@@ -12,7 +13,8 @@ Feature:  Link List
       | 2    |
 
   Scenario:  find returns element when element is present in link list
-    Given nodes are created:
+    Given All nodes are reset
+    And nodes are created:
       | node |
       | 1    |
       | 2    |
@@ -23,18 +25,20 @@ Feature:  Link List
       | 3    |
 
   Scenario:  find returns empty value when element is not present in link list
-    Given nodes are created:
+    Given All nodes are reset
+    And nodes are created:
       | node |
       | 11   |
       | 22   |
       | 32   |
-    When search node with data 11
+    When search node with data 1132
     Then below data is returned:
       | node |
       | None |
 
   Scenario:  nodes are removed successfully
-    Given  nodes are created:
+    Given All nodes are reset
+    And  nodes are created:
       | node |
       | 1    |
       | 2    |
@@ -47,3 +51,17 @@ Feature:  Link List
       | node |
       | 3    |
 
+  Scenario:  nodes are removed from mid of link list
+    Given All nodes are reset
+    And  nodes are created:
+      | node |
+      | 101  |
+      | 102  |
+      | 103  |
+    When below nodes are removed
+      | node |
+      | 102  |
+    Then link list contains below data:
+      | node |
+      | 101  |
+      | 103  |
