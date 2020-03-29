@@ -1,0 +1,6 @@
+/virtualEnv/
+/virtualEnv/Include/
+/virtualEnv/pyvenv.cfg
+/virtualEnv/Lib/
+/virtualEnv/Scripts/
+/virtualEnv/pip-selfcheck.json
