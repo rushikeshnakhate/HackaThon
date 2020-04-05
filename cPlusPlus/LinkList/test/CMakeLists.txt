@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.15)
+project(TestLinkList)
+include_directories(lib/googletest/include)
+add_executable(TestLinkList tdd/Test_LinkList)
+target_link_libraries(TestLinkList gtest gtest_main)
+add_subdirectory(lib)
