@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
 project(LinkListProject)
 include_directories(src)
-add_executable(LinkListProject src/LinkList)
+add_executable(LinkListProject src/LinkList src/Node.h)
 add_subdirectory(test)
