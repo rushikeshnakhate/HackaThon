@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.15)
+project(PORTFOLIO_SRC)
+add_definitions(-std=c++17)
+set(HEADER Portfolio.h TransactionRecord.h)
+set(SOURCE Portfolio.cpp)
+#add_executable(PORTFOLIO_SRC ${SOURCE} ${HEADER})
+add_library(PORTFOLIO_LIB ${SOURCE} ${HEADER})

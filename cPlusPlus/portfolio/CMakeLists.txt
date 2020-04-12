@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.15)
+set(PROJECT_NAME PORTFOLIO)
+project(${PROJECT_NAME})
+add_subdirectory(test)
+add_subdirectory(src)

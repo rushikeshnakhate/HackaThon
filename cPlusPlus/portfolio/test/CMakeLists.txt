@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.15)
+set(PROJECT_NAME Test_PortfolioProject)
+project(${PROJECT_NAME})
+include_directories(${gtest_SOURCE_DIR}/include $gtest_SOURCE_DIR ${gmock_SOURCE_DIR}/include ../src)
+set(HEADER Test_Portfolio.h)
+set(CPP Test_Portfolio.cpp)
+add_executable(${PROJECT_NAME} ${HEADER} ${CPP})
+target_link_libraries(${PROJECT_NAME} PUBLIC gtest gtest_main PORTFOLIO_LIB)
