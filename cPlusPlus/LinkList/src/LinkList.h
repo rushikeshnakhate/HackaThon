@@ -1,7 +1,7 @@
 #ifndef HACKATHON_LINKLIST_H
 #define HACKATHON_LINKLIST_H
 
-#include <Node.h>
+#include "Node.h"
 
 class LinkList {
     int number_of_nodes{0};
@@ -12,6 +12,8 @@ public:
     }
 
     void add_node(const int &element);
+
+    bool search(const int &element);
 
     Node *get_last_node();
 };

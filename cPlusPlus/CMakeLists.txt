@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.15)
+project(RootProject)
+set(GTEST_PATH lib)
+#add_subdirectory(LinkList)
+add_subdirectory(lib/gtest)
+add_subdirectory(portfolio)
