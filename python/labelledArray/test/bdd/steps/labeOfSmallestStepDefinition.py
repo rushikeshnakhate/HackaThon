@@ -1,7 +1,7 @@
 from behave import given, when, then
 import numpy as np
 
-from labelledArray.src.LabelsArray import LabeledArray
+from python.labelledArray.src.LabelsArray import LabeledArray
 
 
 @given(u'input data')
@@ -25,10 +25,10 @@ def input_index(context, index):
 
 @when(u'job is executed')
 def execute_job(context):
-    labelledArray = LabeledArray()
-    context.actual = labelledArray.get_label_for_indexes_upto(context.data,
-                                                              context.labels,
-                                                              context.index)
+    labelled_array = LabeledArray()
+    context.actual = labelled_array.get_label_for_indexes_upto(context.data,
+                                                               context.labels,
+                                                               context.index)
 
 
 @then('below data is returned')

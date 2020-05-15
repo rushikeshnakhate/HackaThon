@@ -1,7 +1,7 @@
 import unittest
 import numpy as np
 
-from labelledArray.src.LabelsArray import LabeledArray
+from python.labelledArray.src.LabelsArray import LabeledArray
 
 event = []
 
