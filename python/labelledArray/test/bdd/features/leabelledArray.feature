@@ -12,12 +12,12 @@ Feature:  labels of smallest
       | 1    |
     And input labels:
       | labels |
-      | a      |
-      | a      |
+      | e      |
+      | d      |
+      | d      |
+      | c      |
       | b      |
       | b      |
-      | b      |
-      | a      |
       | a      |
 
     And input index 6
@@ -25,31 +25,31 @@ Feature:  labels of smallest
     Then below data is returned:
       | result |
       | a      |
-      | a      |
       | b      |
       | b      |
-      | b      |
-      | a      |
+      | c      |
+      | d      |
+      | d      |
 
     Given input index 2
     When job is executed
     Then below data is returned:
       | result |
       | a      |
-      | a      |
+      | b      |
 
 
   Scenario: label for input index is returned with change in input data
     Given input data:
       | data |
       | 11   |
-      | 12   |
       | 13   |
+      | 12   |
     And input labels:
       | labels |
       | emp1   |
-      | emp2   |
       | emp3   |
+      | emp2   |
     And input index 2
     When job is executed
     Then  below data is returned:

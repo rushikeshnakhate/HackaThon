@@ -8,4 +8,6 @@ class LabeledArray:
         df_input_data = pd.DataFrame(input_data)
         df_labels = pd.DataFrame(input_label)
         df_data_labels = pd.concat([df_input_data, df_labels], axis=1)
+        df_data_labels.columns = ['input_data', 'input_label']
+        df_data_labels.sort_values(by=['input_data'], ascending=True, inplace=True)
         return np.array(df_data_labels.iloc[:, 1].head(input_index))
