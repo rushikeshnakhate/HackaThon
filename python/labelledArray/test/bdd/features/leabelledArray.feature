@@ -20,7 +20,7 @@ Feature:  labels of smallest
       | a      |
       | a      |
 
-    Given input index 6
+    And input index 6
     When job is executed
     Then below data is returned:
       | result |
@@ -37,3 +37,22 @@ Feature:  labels of smallest
       | result |
       | a      |
       | a      |
+
+
+  Scenario: label for input index is returned with change in input data
+    Given input data:
+      | data |
+      | 11   |
+      | 12   |
+      | 13   |
+    And input labels:
+      | labels |
+      | emp1   |
+      | emp2   |
+      | emp3   |
+    And input index 2
+    When job is executed
+    Then  below data is returned:
+      | result |
+      | emp1   |
+      | emp2   |
