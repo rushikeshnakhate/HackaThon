@@ -6,9 +6,9 @@ from python.subArrayWithGivenSum.src.subArrayWithGivenSum import SubArrayWithGiv
 
 @given("below array")
 def load_array(context):
-    context.input_data = []
+    context.input_data = np.array([], dtype=int)
     for row in context.table:
-        context.input_data.append(row['data'])
+        context.input_data = np.append(context.input_data, row['data'])
 
 
 @given("given sum {sum:d}")

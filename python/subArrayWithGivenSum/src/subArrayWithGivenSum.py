@@ -6,36 +6,23 @@ class SubArrayWithGivenSum:
         pass
 
     def get_sub_array_with_sum(self, input_array, input_sum):
-        try:
-            index = []
-            result = []
-            size = np.size(input_array)
-            current_counter = 0
-            while current_counter < (int(size) - 1):
-                if self.is_sub_array_with_sum(index, input_array, input_sum, result, current_counter, size):
-                    return index
-                index.clear()
-                result.clear()
-                current_counter += 1
-        except:
-            print("unhandled exception ")
+        total_sum = 0
+        start_index = 0
+        while start_index < np.size(input_array):
+            found, start_index, end_index = self.get_array_with_sum(input_array,
+                                                                    input_sum,
+                                                                    start_index,
+                                                                    total_sum)
+            if found:
+                return [start_index + 1, end_index+1]
+            start_index += 1
+        return -1, -1
 
-    def is_sub_array_with_sum(self, index, input_array, input_sum, result, current_counter, size) -> bool:
-        i = 0 + current_counter
-        while i < size:
-            if input_array[i] == int(input_sum):
-                index.append(current_counter + i)
-                return True
-            else:
-                index.append(current_counter + i)
-                result.append(int(input_array[i]))
-                print("index={},input_array={} ,index={} , result={} sumofresult={} ".format(i,
-                                                                                             input_array[i],
-                                                                                             index,
-                                                                                             result,
-                                                                                             sum(result)))
-
-                if sum(result) == input_sum:
-                    return True
-            i += 1
-        return False
+    def get_array_with_sum(self, input_array, input_sum, start_index, total_sum):
+        current_index = start_index
+        while current_index < np.size(input_array):
+            total_sum += int(input_array[current_index])
+            if total_sum == input_sum:
+                return True, start_index, current_index
+            current_index += 1
+        return False, start_index, -1
