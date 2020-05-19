@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.14)
+set(PROJECT_NAME SUB_ARRAY_FOR_GIVEN_SUM)
+project(${PROJECT_NAME})
+add_subdirectory(src)
+add_subdirectory(test)

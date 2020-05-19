@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.14)
+set(PROJECT_NAME TEST_SUB_ARRAY_FOR_GIVEN_SUM)
+project(${PROJECT_NAME})
+set(HEADER Test_ArrayWithGivenSum.h)
+set(CPP Test_ArrayWithGivenSum.cpp)
+add_executable(${PROJECT_NAME} ${HEADER} ${CPP})
+target_link_libraries(${PROJECT_NAME} PUBLIC gtest gtest_main SUB_ARRAY_FOR_GIVEN_SUM_LIBS)
