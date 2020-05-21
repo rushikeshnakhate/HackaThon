@@ -7,7 +7,7 @@
 
 class ArrayWithGivenSum {
 public:
-    int get_sub_array_index(int &num, std::vector<int> &input_arr, std::tuple<int, int> &sub_array_index);
+    bool get_sub_array_index(int &num, std::vector<int> &input_arr, std::tuple<int, int> &sub_array_index);
 };
 
 
