@@ -1,9 +1,10 @@
 #include "Test_ArrayWithGivenSum.h"
 
-TEST_F(Test_ArrayWithGivenSum, ArrayIsNotSorted) {
-    std::array<int, 10> arr{1, 2, 4};
-    std::array<int, 2> expectedArray{1, 2};
-    int sum = 3;
-    EXPECT_EQ(arrayWithGivenSum_.get_sub_array(sum), 1);
-
+TEST_F(Test_ArrayWithGivenSum, get_index_of_arrays_for_give_sum) {
+    std::vector<int> input_array{1, 2, 3,7,5};
+    int sum = 12;
+    std::tuple<int, int> result;
+    std::tuple<int, int> expected{1, 3};
+    EXPECT_EQ(arrayWithGivenSum_.get_sub_array_index(sum, input_array, result), 1);
+    EXPECT_EQ(result, expected);
 }

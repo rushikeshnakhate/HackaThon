@@ -12,6 +12,10 @@
 class Test_ArrayWithGivenSum : public ::testing::Test {
 public:
     ArrayWithGivenSum arrayWithGivenSum_;
+protected:
+    void SetUp() override {}
+
+    void TearDown() override {}
 };
 
 
