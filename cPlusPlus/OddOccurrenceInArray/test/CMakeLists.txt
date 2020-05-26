@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.15)
+set(PROJECT_NAME TEST_ODD_OCCURRENCE)
+project(${PROJECT_NAME})
+set(HEADER Test_OddOccurrence.h)
+set(CPP Test_OddOccurrence.cpp)
+add_executable(${PROJECT_NAME} ${HEADER} ${CPP})
+target_link_libraries(${PROJECT_NAME} PUBLIC gtest gtest_main ODD_OCCURRENCE)

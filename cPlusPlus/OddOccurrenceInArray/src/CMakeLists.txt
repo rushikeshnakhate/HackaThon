@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14)
+set(PROJECT_NAME ODD_OCCURRENCE)
+project(${PROJECT_NAME})
+set(HEADER OddOccurrence.h)
+set(CPP OddOccurrence.cpp)
+add_library(${PROJECT_NAME} ${HEADER} ${CPP})
