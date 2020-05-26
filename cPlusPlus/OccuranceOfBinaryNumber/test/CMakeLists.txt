@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.12)
+set(PROJECT_NAME TEST_COUNT_CONSECUTIVE_BINARY_NUMBER)
+project(${PROJECT_NAME})
+set(CPP Test_BinaryConsecutive.cpp)
+set(HEADER Test_BinaryConsecutive.h)
+add_executable(${PROJECT_NAME} ${HEADER} ${CPP})
+target_link_libraries(${PROJECT_NAME} PUBLIC gtest gtest_main COUNT_CONSECUTIVE_BINARY_NUMBER)
