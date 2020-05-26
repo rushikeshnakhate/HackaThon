@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.15)
+set(PROJECT_NAME ROTATION_ARRAY)
+project(${PROJECT_NAME})
+set(CPP RotationArray.cpp)
+set(HEADER RotationArray.h)
+add_library(${PROJECT_NAME} ${CPP} ${HEADER})
