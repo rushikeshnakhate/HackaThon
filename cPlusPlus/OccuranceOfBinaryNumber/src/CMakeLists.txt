@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.15)
+set(PROJECT_NAME COUNT_CONSECUTIVE_BINARY_NUMBER)
+project(${PROJECT_NAME})
+set(CPP BinaryConsecutive.cpp)
+set(HEADER BinaryConsecutive.h)
+add_library(${PROJECT_NAME} ${CPP} ${HEADER})
