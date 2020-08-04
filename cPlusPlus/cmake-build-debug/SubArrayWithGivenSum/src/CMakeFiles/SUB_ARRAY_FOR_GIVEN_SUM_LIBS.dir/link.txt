@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSUB_ARRAY_FOR_GIVEN_SUM_LIBS.a  CMakeFiles/SUB_ARRAY_FOR_GIVEN_SUM_LIBS.dir/ArrayWithGivenSum.cpp.o
+/usr/bin/ranlib libSUB_ARRAY_FOR_GIVEN_SUM_LIBS.a

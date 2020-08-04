@@ -1,0 +1,2 @@
+/usr/bin/ar qc libODD_OCCURRENCE.a  CMakeFiles/ODD_OCCURRENCE.dir/OddOccurrence.cpp.o
+/usr/bin/ranlib libODD_OCCURRENCE.a

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/ayush/HackaThon/cPlusPlus/rotationArray/src/RotationArray.cpp
+RotationArray.h
+/mnt/c/Users/ayush/HackaThon/cPlusPlus/rotationArray/src/RotationArray.h
+
+/mnt/c/Users/ayush/HackaThon/cPlusPlus/rotationArray/src/RotationArray.h
+vector
+-
+algorithm
+-
+

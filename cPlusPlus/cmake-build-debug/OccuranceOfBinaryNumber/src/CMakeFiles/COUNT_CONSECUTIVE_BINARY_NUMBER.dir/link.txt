@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCOUNT_CONSECUTIVE_BINARY_NUMBER.a  CMakeFiles/COUNT_CONSECUTIVE_BINARY_NUMBER.dir/BinaryConsecutive.cpp.o
+/usr/bin/ranlib libCOUNT_CONSECUTIVE_BINARY_NUMBER.a
