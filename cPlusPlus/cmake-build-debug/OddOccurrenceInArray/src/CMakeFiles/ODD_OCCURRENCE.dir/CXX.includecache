@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/ayush/HackaThon/cPlusPlus/OddOccurrenceInArray/src/OddOccurrence.cpp
+vector
+-
+algorithm
+-
+iostream
+-
+OddOccurrence.h
+/mnt/c/Users/ayush/HackaThon/cPlusPlus/OddOccurrenceInArray/src/OddOccurrence.h
+
+/mnt/c/Users/ayush/HackaThon/cPlusPlus/OddOccurrenceInArray/src/OddOccurrence.h
+

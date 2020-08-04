@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TEST_ODD_OCCURRENCE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\rotationArray\;CMake Files\rotationArray\src\;CMake Files\rotationArray\test\;CMake Files\OccuranceOfBinaryNumber\;CMake Files\OccuranceOfBinaryNumber\src\;CMake Files\OccuranceOfBinaryNumber\test\;CMake Files\Externals\;CMake Files\Externals\googletest\;CMake Files\Externals\googletest\cmake\;CMake Files\SubArrayWithGivenSum\;CMake Files\SubArrayWithGivenSum\src\;CMake Files\SubArrayWithGivenSum\test\;CMake Files\OddOccurrenceInArray\;CMake Files\OddOccurrenceInArray\src\;CMake Files\OddOccurrenceInArray\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TEST_ODD_OCCURRENCE">
+				<Option output="/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/TEST_ODD_OCCURRENCE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/ayush/HackaThon/cPlusPlus/Externals/googletest/include"/>
+					<Add directory="/mnt/c/Users/ayush/HackaThon/cPlusPlus/Externals/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/Makefile&quot;  VERBOSE=1 TEST_ODD_OCCURRENCE"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TEST_ODD_OCCURRENCE/fast">
+				<Option output="/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/TEST_ODD_OCCURRENCE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/ayush/HackaThon/cPlusPlus/Externals/googletest/include"/>
+					<Add directory="/mnt/c/Users/ayush/HackaThon/cPlusPlus/Externals/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/Makefile&quot;  VERBOSE=1 TEST_ODD_OCCURRENCE/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/c/Users/ayush/HackaThon/cPlusPlus/cmake-build-debug/OddOccurrenceInArray/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/OddOccurrenceInArray/test/Test_OddOccurrence.cpp">
+			<Option target="TEST_ODD_OCCURRENCE"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/OddOccurrenceInArray/test/Test_OddOccurrence.h">
+			<Option target="TEST_ODD_OCCURRENCE"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/rotationArray/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rotationArray\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/rotationArray/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rotationArray\src\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/rotationArray/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\rotationArray\test\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/OccuranceOfBinaryNumber/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OccuranceOfBinaryNumber\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/OccuranceOfBinaryNumber/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OccuranceOfBinaryNumber\src\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/OccuranceOfBinaryNumber/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OccuranceOfBinaryNumber\test\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/Externals/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Externals\googletest\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/Externals/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\Externals\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/SubArrayWithGivenSum/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SubArrayWithGivenSum\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/SubArrayWithGivenSum/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SubArrayWithGivenSum\src\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/SubArrayWithGivenSum/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SubArrayWithGivenSum\test\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/OddOccurrenceInArray/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OddOccurrenceInArray\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/OddOccurrenceInArray/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OddOccurrenceInArray\src\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/ayush/HackaThon/cPlusPlus/OddOccurrenceInArray/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OddOccurrenceInArray\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

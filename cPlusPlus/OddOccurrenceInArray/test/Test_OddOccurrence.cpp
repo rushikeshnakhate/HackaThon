@@ -16,3 +16,8 @@ TEST_F(Test_OddOccurrence, valid_result) {
     EXPECT_EQ(element, 7);
 
 }
+
+int main() {
+    ::testing::InitGoogleTest();
+    return RUN_ALL_TESTS();
+}

@@ -15,3 +15,8 @@ TEST_F(Test_RotationArray, Empty_array_is_handelled) {
     std::vector<int> actual = rotationArray_.rotate(V, K);
     EXPECT_EQ(actual, V);
 }
+
+int main() {
+    ::testing::InitGoogleTest();
+    return RUN_ALL_TESTS();
+}
