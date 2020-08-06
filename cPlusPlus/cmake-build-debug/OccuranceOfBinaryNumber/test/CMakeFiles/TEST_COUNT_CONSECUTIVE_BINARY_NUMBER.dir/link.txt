@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/TEST_COUNT_CONSECUTIVE_BINARY_NUMBER.dir/Test_BinaryConsecutive.cpp.o  -o TEST_COUNT_CONSECUTIVE_BINARY_NUMBER ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../src/libCOUNT_CONSECUTIVE_BINARY_NUMBER.a ../../lib/libgtestd.a -lpthread 

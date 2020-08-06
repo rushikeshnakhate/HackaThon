@@ -1,0 +1,8 @@
+set(PROJECT_NAME BINARY_TREE_TRAVERSAL_TEST)
+project(${PROJECT_NAME})
+set(HEADER Test_BinaryTreeTraverse.h)
+set(CPP Test_BinaryTreeTraverse.cpp)
+add_executable(${PROJECT_NAME} ${CPP} ${HEADER})
+include_directories(../../Externals/googletest)
+target_link_libraries(${PROJECT_NAME} gtest gtest_main)
+target_link_libraries(${PROJECT_NAME} BINARY_TREE_TRAVERSAL_SRC)
