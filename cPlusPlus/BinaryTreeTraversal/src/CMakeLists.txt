@@ -1,0 +1,5 @@
+set(PROJECT_NAME BINARY_TREE_TRAVERSAL_SRC)
+project(${PROJECT_NAME})
+set(HEADER BinaryTreeTraverse.h)
+set(CPP BinaryTreeTraverse.cpp)
+add_library(${PROJECT_NAME} ${CPP} ${HEADER})

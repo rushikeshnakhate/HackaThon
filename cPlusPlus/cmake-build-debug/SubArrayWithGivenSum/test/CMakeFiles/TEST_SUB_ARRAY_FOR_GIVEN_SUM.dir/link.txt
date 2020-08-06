@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/TEST_SUB_ARRAY_FOR_GIVEN_SUM.dir/Test_ArrayWithGivenSum.cpp.o  -o TEST_SUB_ARRAY_FOR_GIVEN_SUM ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../src/libSUB_ARRAY_FOR_GIVEN_SUM_LIBS.a ../../lib/libgtestd.a -lpthread 

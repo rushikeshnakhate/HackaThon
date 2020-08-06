@@ -1,2 +1,0 @@
-/usr/bin/ar qc libROTATION_ARRAY.a  CMakeFiles/ROTATION_ARRAY.dir/RotationArray.cpp.o
-/usr/bin/ranlib libROTATION_ARRAY.a

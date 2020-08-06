@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/TEST_ROTATION_ARRAY.dir/Test_RotationArray.cpp.o  -o TEST_ROTATION_ARRAY ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../src/libROTATION_ARRAY.a ../../lib/libgtestd.a -lpthread 

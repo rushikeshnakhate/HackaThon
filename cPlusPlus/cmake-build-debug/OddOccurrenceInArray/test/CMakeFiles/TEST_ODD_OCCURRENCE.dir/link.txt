@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/TEST_ODD_OCCURRENCE.dir/Test_OddOccurrence.cpp.o  -o TEST_ODD_OCCURRENCE ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../src/libODD_OCCURRENCE.a ../../lib/libgtestd.a -lpthread 
