@@ -16,6 +16,9 @@
   
   
   
- &nbsp;&nbsp;:small_orange_diamond: <b>Python CookBook</b> <br>
+&nbsp;&nbsp;:small_orange_diamond: <b> Using Collection Like Map, Set , Stack , Queue - when you need to find a pair/group of number of satisfying a given target condition </b> <br>
+
+&nbsp;&nbsp;:small_orange_diamond: <b> Two Pointer : Is applicable when you need to Search set of element with given condition </br>
+find triplet or sub array with given condition </b> <br>
 
 
