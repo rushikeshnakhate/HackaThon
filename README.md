@@ -22,3 +22,14 @@
 find triplet or sub array with given condition </b> <br>
 
 
+&nbsp;&nbsp;:small_orange_diamond: <b> Fast and Slow Pointer : find a position of element or length of array ; where array is cyclic/has a loop </b> <br>
+
+&nbsp;&nbsp;:small_orange_diamond: <b>Two Heap: find smallest/larget/median of element of an array </b> <br>
+
+&nbsp;&nbsp;:small_orange_diamond: <b>Subset : pemutation/Combination of Given Set  </b> <br>
+
+&nbsp;&nbsp;:small_orange_diamond: <b>TOP K Element - find top K Smallest/Larget/frequent element in array </b> <br>
+
+&nbsp;&nbsp;:small_orange_diamond: <b>Sliding window - find shorted /longest subset of Given array </b>
+
+
