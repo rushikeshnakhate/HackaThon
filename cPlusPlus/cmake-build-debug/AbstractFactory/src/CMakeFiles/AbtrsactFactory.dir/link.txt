@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/AbtrsactFactory.dir/Main.cpp.o  -o AbtrsactFactory 

@@ -1,0 +1,5 @@
+set(PROJECT_NAME LinkListSrc)
+set(CPP LinkList.cpp)
+set(HEADER LinkList.h Node.h)
+#add_executable(${PROJECT_NAME} ${CPP} ${HEADER})
+add_library(${PROJECT_NAME} ${CPP} ${HEADER})

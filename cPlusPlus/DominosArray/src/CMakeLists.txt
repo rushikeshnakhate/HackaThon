@@ -1,0 +1,6 @@
+set(PROJECT_NAME DominosSrc)
+set(CPP Main.cpp)
+set(HEADER Main.h)
+include_directories(../../libs/googletest-1.10.x/googletest)
+add_executable(${PROJECT_NAME} ${CPP} ${HEADER})
+target_link_libraries(${PROJECT_NAME} PUBLIC gtest gtest_main)

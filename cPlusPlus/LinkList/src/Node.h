@@ -1,12 +1,9 @@
+#pragma once
 
-#ifndef LINKLISTPROJECT_NODE_H
-#define LINKLISTPROJECT_NODE_H
+#include <memory>
 
-//template<typename T>
+template<typename T>
 struct Node {
-    Node *next;
-    int data;
+    T t;
+    std::unique_ptr<Node> next;
 };
-
-
-#endif //LINKLISTPROJECT_NODE_H

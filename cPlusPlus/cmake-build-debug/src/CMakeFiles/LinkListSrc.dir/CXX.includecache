@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Practice/src/LinkList.cpp
+LinkList.h
+/mnt/d/Practice/src/LinkList.h
+
+/mnt/d/Practice/src/LinkList.h
+Node.h
+/mnt/d/Practice/src/Node.h
+
+/mnt/d/Practice/src/Node.h
+memory
+-
+

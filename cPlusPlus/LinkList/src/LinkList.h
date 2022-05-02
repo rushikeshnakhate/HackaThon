@@ -1,20 +1,16 @@
-#ifndef HACKATHON_LINKLIST_H
-#define HACKATHON_LINKLIST_H
+#pragma once
 
-#include <Node.h>
+#include "Node.h"
 
+template<typename T>
 class LinkList {
-    int number_of_nodes{0};
-    Node *head{nullptr};
+    std::shared_ptr<Node<T>> head;
 public:
-    int get_number_of_nodes() {
-        return number_of_nodes;
-    }
+    bool add(T t);
 
-    void add_node(const int &element);
+    std::shared_ptr<Node<T>> getLastNode();
 
-    Node *get_last_node();
+    inline std::shared_ptr<Node<T>> getHead() { return head; }
 };
 
 
-#endif //HACKATHON_LINKLIST_H
